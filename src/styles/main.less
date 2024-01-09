@@ -13,30 +13,33 @@
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-column-gap: 1%;
-
-    &__profile {
+    
+    .product__profile {
         padding: 8px;
         
-        &--img { /* elemento */
+        .product__profile--img { /* elemento */
             width: 100%;
         }
-
-        &--name { /* elemento */
+    
+        .product__profile--name { /* elemento */
             font-size: 1.2em;
             margin: 8px 0;
         }
-
-        &--discription { /* elemento */
+    
+        .product__profile--discription { /* elemento */
             color: @cor1;
         }
-
-        &__profile--main { /* modificador */
-            border: 2px solid @main;
-            padding: 8px;
-            background-color: @contrast;
-        }
+    
     } /* bloco */
 }
+
+.product__profile--main { /* modificador */
+    border: 2px solid @main;
+    padding: 8px;
+    background-color: @contrast;
+}
+
+
 
 
 

@@ -12,23 +12,23 @@
   grid-column-gap: 1%;
   /* bloco */
 }
-.products__profile {
+.products .product__profile {
   padding: 8px;
 }
-.products__profile--img {
+.products .product__profile .product__profile--img {
   /* elemento */
   width: 100%;
 }
-.products__profile--name {
+.products .product__profile .product__profile--name {
   /* elemento */
   font-size: 1.2em;
   margin: 8px 0;
 }
-.products__profile--discription {
+.products .product__profile .product__profile--discription {
   /* elemento */
   color: gray;
 }
-.products__profile__profile--main {
+.product__profile--main {
   /* modificador */
   border: 2px solid gold;
   padding: 8px;
